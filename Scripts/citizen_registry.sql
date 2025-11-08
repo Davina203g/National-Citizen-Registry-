@@ -34,9 +34,6 @@ DECLARE
   v_counter       PLS_INTEGER := 0;
 
 BEGIN
-  DBMS_OUTPUT.PUT_LINE('=== National Citizen Registry (Simplified & Complete) ===');
-  DBMS_OUTPUT.PUT_LINE('');
-
   -----------------------------------------------------------------
   -- STEP 4: Load sample data into the registry
   -----------------------------------------------------------------
@@ -131,11 +128,11 @@ BEGIN
   -----------------------------------------------------------------
   <<not_found>>
   DBMS_OUTPUT.PUT_LINE('');
-  DBMS_OUTPUT.PUT_LINE('*** Notice: Requested citizen or province not found. ***');
+  DBMS_OUTPUT.PUT_LINE(' Notice: Requested citizen or province not found. ');
 
   <<finish>>
   DBMS_OUTPUT.PUT_LINE('');
-  DBMS_OUTPUT.PUT_LINE('=== Registry Operation Complete ===');
+  DBMS_OUTPUT.PUT_LINE(' Registry Operation Complete ');
 
 EXCEPTION
   WHEN OTHERS THEN
