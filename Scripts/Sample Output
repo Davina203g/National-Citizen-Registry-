@@ -1,0 +1,17 @@
+Sample citizens loaded successfully.
+
+Searching for citizen ID: 1182111234567
+FOUND:
+  Name: Alice Uwase
+  Province: Kigali
+  Date of Birth: 1990-05-15
+  Contact Numbers:
+    1: 0788888888
+    2: 0722222222
+    3: 0799999999
+
+Listing all citizens in province: Kigali
+  1. Alice Uwase (1182111234567)
+  2. Claire Mukamana (1182111987654)
+
+Registry Operation complete
